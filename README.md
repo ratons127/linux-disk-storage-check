@@ -99,5 +99,8 @@ This will give you a nice list showing which directories take the most space.
 * or a **script to monitor this automatically**
 
 Shall I?
+```
+du -h --max-depth=1 | sort -rn
+```
 
 
